@@ -1,0 +1,4 @@
+[submodule "urf-verifier"]
+	path = urf-verifier
+	url = https://github.com/inaciovasquez2020/urf-verifier.git
+	branch = main
