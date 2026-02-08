@@ -1,0 +1,27 @@
+name: urf-application-stress-test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  stress:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Init submodules
+        run: |
+          git submodule update --init --recursive
+
+      - name: Make scripts executable
+        run: |
+          chmod +x scripts/run-baseline.sh
+          chmod +x scripts/run-urf.sh
+          chmod +x run-all.sh
+
+      - name: Run stress test
+        run: |
+          ./run-all.sh
+
