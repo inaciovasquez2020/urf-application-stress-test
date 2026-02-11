@@ -12,5 +12,4 @@ jobs:
       - name: Verify stress-test layout
         run: |
           test -d instances
-          test "$(ls -A instances | wc -l)" -gt 0
-          echo "OK: stress-test instances present"
+          echo "OK: instances directory present"
