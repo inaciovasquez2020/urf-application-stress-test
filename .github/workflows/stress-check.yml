@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Verify scripts exist
+      - name: Verify stress-test layout
         run: |
-          test -d scripts
-          test -f scripts/run-demo.sh
-          echo "OK: stress-test scripts present"
+          test -d instances
+          test "$(ls -A instances | wc -l)" -gt 0
+          echo "OK: stress-test instances present"
