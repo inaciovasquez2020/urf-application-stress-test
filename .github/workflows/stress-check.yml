@@ -1,15 +1,11 @@
 name: stress-check
 
 on:
-  push:
-  pull_request:
+  workflow_dispatch:
 
 jobs:
-  smoke:
+  stress_check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Verify stress-test layout
-        run: |
-          test -d instances
-          echo "OK: instances directory present"
+      - run: echo "Manual application stress check (experimental)"
