@@ -1,0 +1,11 @@
+{
+"family": "sat-small-bounded-degree",
+"variables": 12,
+"clauses": 24,
+"max_clause_degree": 3,
+"structure": "local interaction ring with cross chords",
+"expected": {
+"baseline": "cannot certify entropy depth bound",
+"urf": "certificate required"
+}
+}
