@@ -49,3 +49,6 @@ See docs/ for four drop-in artifacts:
 - docs/failure_theorem.md
 - docs/admissibility_alignment.
  (docs: add journal methods, audit description, failure theorem, and admissibility alignment)
+
+## Conditional note
+- `docs/REPLAY_INTEGRITY_NOTE_2026_04.md` — conditional note specifying the weakest replay-audit extension compatible with the repository's frozen stress-test-harness scope.
