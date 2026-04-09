@@ -50,5 +50,14 @@ See docs/ for four drop-in artifacts:
 - docs/admissibility_alignment.
  (docs: add journal methods, audit description, failure theorem, and admissibility alignment)
 
+
 ## Conditional note
 - `docs/REPLAY_INTEGRITY_NOTE_2026_04.md` — conditional note specifying the weakest replay-audit extension compatible with the repository's frozen stress-test-harness scope.
+## Conditional notes
+- `docs/REPLAY_INTEGRITY_NOTE_2026_04.md` — conditional note specifying the weakest replay-audit extension compatible with the repository's frozen stress-test-harness scope.
+- `docs/METHOD_ADAPTER_COMPLETENESS_NOTE_2026_04.md` — conditional note specifying the weakest adapter-coverage audit compatible with the repository's harness scope.
+- `docs/ENVIRONMENT_PIN_INTEGRITY_NOTE_2026_04.md` — conditional note specifying the weakest environment-hash audit compatible with the repository's reproducibility boundary.
+- `docs/SUMMARY_TRACEABILITY_NOTE_2026_04.md` — conditional note specifying the weakest summary-to-artifact traceability audit compatible with the repository's result-reporting scope.
+- `docs/VERIFIER_PIN_AUDIT_NOTE_2026_04.md` — conditional note specifying the weakest verifier-pin admissibility audit compatible with the repository's pinned-verifier workflow.
+- `docs/THEORETICAL_OVERREACH_NOTE_2026_04.md` — conditional note specifying the weakest non-overreach audit compatible with the repository's explicit non-completeness boundary.
+
