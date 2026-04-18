@@ -6,6 +6,7 @@ env:
 on:
   push:
   pull_request:
+  workflow_dispatch:
 
 jobs:
   stress:
@@ -27,4 +28,3 @@ jobs:
       - name: Run stress test
         run: |
           ./run-all.sh
-  workflow_dispatch:
