@@ -1,5 +1,8 @@
 name: urf-application-stress-test
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 on:
   push:
   pull_request:
@@ -9,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Init submodules
         run: |
@@ -24,4 +27,4 @@ jobs:
       - name: Run stress test
         run: |
           ./run-all.sh
-
+  workflow_dispatch:
