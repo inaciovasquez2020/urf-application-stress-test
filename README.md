@@ -61,6 +61,10 @@ See docs/ for four drop-in artifacts:
 - `docs/VERIFIER_PIN_AUDIT_NOTE_2026_04.md` — conditional note specifying the weakest verifier-pin admissibility audit compatible with the repository's pinned-verifier workflow.
 - `docs/THEORETICAL_OVERREACH_NOTE_2026_04.md` — conditional note specifying the weakest non-overreach audit compatible with the repository's explicit non-completeness boundary.
 
+## External status
+
+This repository is governed by [`docs/status/EXTERNAL_STATUS_LOCK.md`](docs/status/EXTERNAL_STATUS_LOCK.md). Build success, CI success, dashboards, ledgers, axioms, admits, `sorry`, or placeholder witnesses do not constitute theorem-level closure.
+
 ## Lean proof portfolio classification
 
 This repository is governed by [`docs/status/LEAN_PROOF_PORTFOLIO_CLASSIFICATION.md`](docs/status/LEAN_PROOF_PORTFOLIO_CLASSIFICATION.md). Its role in the portfolio is explicitly classified as proof-facing, conditional frontier, infrastructure/documentation, or legacy/scaffold.
